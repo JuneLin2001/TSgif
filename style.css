@@ -1,0 +1,14 @@
+#image-container {
+    display: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+#image-container {
+    background-color: black;
+    max-width: 720px; /* 设置最大宽度 */
+    max-height: 1080px; /* 设置最大高度 */
+    overflow: auto; /* 添加滚动条以适应内容 */
+}
